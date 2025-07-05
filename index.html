@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Achievers Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-gray-50 text-gray-900">
+    <!-- Navbar -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-bold text-blue-600">Achievers Academy</h1>
+        <nav class="space-x-4 text-sm font-medium">
+          <a href="#home" class="hover:text-blue-600">Home</a>
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#courses" class="hover:text-blue-600">Courses</a>
+          <a href="#faculty" class="hover:text-blue-600">Faculty</a>
+          <a href="#gallery" class="hover:text-blue-600">Gallery</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-600 text-white py-20 text-center">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-4">Unlock Your Potential</h2>
+        <p class="text-lg mb-6">Coaching for JEE, NEET, Boards & Olympiads</p>
+        <a
+          href="#contact"
+          class="bg-white text-blue-600 px-6 py-2 rounded shadow hover:bg-gray-100"
+          >Join Now</a
+        >
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">About Us</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Achievers Academy is a top-tier institute providing expert coaching for
+        competitive and board exams. Our mission is to build strong foundations,
+        develop problem-solving skills, and inspire academic excellence.
+      </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 bg-gray-100 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Our Courses</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white shadow p-6 rounded">
+            <h3 class="text-xl font-semibold mb-2">JEE Foundation</h3>
+            <p>
+              2-year program for class 11-12 students with weekly tests and
+              mentorship.
+            </p>
+          </div>
+          <div class="bg-white shadow p-6 rounded">
+            <h3 class="text-xl font-semibold mb-2">NEET Preparation</h3>
+            <p>
+              Detailed syllabus coverage, mock tests, and doubt-solving for
+              medical aspirants.
+            </p>
+          </div>
+          <div class="bg-white shadow p-6 rounded">
+            <h3 class="text-xl font-semibold mb-2">CBSE Boards</h3>
+            <p>Focused subject-wise preparation for class 9 & 10 students.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="py-16 px-4 max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Our Faculty</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded shadow p-4">
+          <img
+            src="/assets/faculty.jpg"
+            alt="Faculty"
+            class="mx-auto rounded-full mb-3"
+          />
+          <h4 class="font-semibold text-lg">Dr. Neha Sharma</h4>
+          <p class="text-sm text-gray-500">Biology Expert</p>
+        </div>
+        <div class="bg-white rounded shadow p-4">
+          <img
+            src="/assets/faculty.jpg"
+            alt="Faculty"
+            class="mx-auto rounded-full mb-3"
+          />
+          <h4 class="font-semibold text-lg">Mr. Rakesh Verma</h4>
+          <p class="text-sm text-gray-500">Mathematics Head</p>
+        </div>
+        <div class="bg-white rounded shadow p-4">
+          <img
+            src="/assets/faculty.jpg"
+            alt="Faculty"
+            class="mx-auto rounded-full mb-3"
+          />
+          <h4 class="font-semibold text-lg">Ms. Anjali Mehta</h4>
+          <p class="text-sm text-gray-500">Physics Mentor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-gray-100 px-4">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Gallery</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <img src="/assets/gallery1.jpg" class="rounded shadow" />
+          <img src="/assets/gallery2.jpg" class="rounded shadow" />
+          <img src="/assets/gallery3.jpg" class="rounded shadow" />
+          <img src="/assets/gallery4.jpg" class="rounded shadow" />
+          <img src="/assets/gallery5.jpg" class="rounded shadow" />
+          <img src="/assets/gallery6.jpg" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+      <form class="space-y-4 bg-white p-6 rounded shadow">
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="w-full border px-4 py-2 rounded"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Email Address"
+          class="w-full border px-4 py-2 rounded"
+          required
+        />
+        <textarea
+          placeholder="Your Message"
+          class="w-full border px-4 py-2 rounded"
+          rows="4"
+          required
+        ></textarea>
+        <button
+          type="submit"
+          class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+        >
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+      <p>&copy; 2025 Achievers Academy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
